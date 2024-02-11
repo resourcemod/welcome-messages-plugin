@@ -1,0 +1,12 @@
+{
+  "name": "welcome-messages-plugin",
+  "keywords": ["resourcemod", "plugin", "rmod", "connect-messages"],
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "author": "Twelvee",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "resourcemod": "^1.0.14"
+  }
+}
