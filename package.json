@@ -7,6 +7,6 @@
   "author": "Twelvee",
   "license": "GPL-3.0",
   "dependencies": {
-    "resourcemod": "^1.0.19"
+    "resourcemod": "^1.0.22"
   }
 }
