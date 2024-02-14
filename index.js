@@ -8,13 +8,13 @@ const useWelcomeMessages = (parameters = defaultConfig) => {
     }
     if (config.connect) {
         events.onClientPutInServer((event) => {
-            chat.sayToEveryone(`${config.prefix} ${event.getPlayer().getName()} connected.`)
+            chat.sayToEveryone(`${config.prefix} ${event.player.name} connected.`)
         })
     }
 
     if (config.disconnect) {
         events.onClientDisconnected((event) => {
-            chat.sayToEveryone(`${config.prefix} ${event.getPlayer().getName()} disconnected.`)
+            chat.sayToEveryone(`${config.prefix} ${event.player.name} disconnected.`)
         })
     }
 }
